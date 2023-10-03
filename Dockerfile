@@ -16,5 +16,8 @@ RUN bash installer.sh
 # changing workdir
 WORKDIR "/root/TeamUltroid"
 
+# expose port
+EXPOSE 80
+
 # start the bot.
 CMD ["bash", "startup"]
